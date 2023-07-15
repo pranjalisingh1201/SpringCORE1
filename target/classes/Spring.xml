@@ -4,5 +4,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <!-- Creating a bean for alien class through xml configuration. -->
-<bean id="alien" class="com.springcore.spring1.Alien"></bean>
+<!--bean id="alien" class="com.springcore.spring1.Alien" scope="singleton" ___For one bean-->
+<bean id="alien" class="com.springcore.spring1.Alien" scope="prototype"></bean><!-- For multiple beans-->
 </beans>
