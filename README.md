@@ -20,3 +20,8 @@
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/5a3ee4a9-3ca1-4515-9de0-c27102ef7ff5)
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/2f24299b-ff65-4154-a823-5a8fb79183da)
 
+What if we need more beans ?
+1) For this we have an attribute scope. scope ="singleton" returns the same object whenever a new bean is required.
+2) For Multiple beans we need to change the scope to "prototype".
+![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/f16fe7d5-abf5-49b9-8190-64a915a8ca2c)
+
