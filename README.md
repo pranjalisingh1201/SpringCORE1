@@ -18,3 +18,5 @@
 4) ApplicationContext creates all the beans present in Sping.xml.
 5) Alien Object is created only once and reused. Obj1 and Obj2 are pointing to the same object.
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/5a3ee4a9-3ca1-4515-9de0-c27102ef7ff5)
+![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/2f24299b-ff65-4154-a823-5a8fb79183da)
+
