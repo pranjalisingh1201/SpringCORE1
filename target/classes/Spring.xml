@@ -11,5 +11,10 @@
 	<property name="age" value="10"></property>
 	<!-- For all the objects and variables know as beans can be called as properties and for primitive data 
 	types we assign them with value attribute.-->
+	<property name="laptop" ref="Laptop"></property>
+	<!-- For Reference data types we assign them with ref attribute.This ref should be same as bean defined of the class-
+	 Laptop and name is object name used in the class.-->
+	
 </bean>
+<bean id="Laptop" class="com.springcore.spring1.Laptop"></bean>
 </beans>

@@ -3,6 +3,8 @@ package com.springcore.spring1;
 public class Alien {
 	
 	private int age;
+	Laptop laptop;     //BEAN NAME -- Laptop REF-- Laptop and object is laptop.
+	
 	public Alien()
 	{
 		System.out.println("Alien Object Created.");
@@ -18,9 +20,18 @@ public class Alien {
 		System.out.println("Setter Method is being called by <beans>.");
 		this.age = age;
 	}
+	
+	public Laptop getLaptop() {
+		return laptop;
+	}
+
+	public void setLaptop(Laptop laptop) {
+		this.laptop = laptop;
+	}
 
 	public void code () {
 		
 		System.out.println("Im Coding...");
+		laptop.compile();
 	}
 }
