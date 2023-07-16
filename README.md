@@ -24,7 +24,7 @@ What if we need more beans?
 1) For this we have an attribute scope. scope ="singleton" returns the same object whenever a new bean is required.
 2) For Multiple beans we need to change the scope to "prototype".
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/f16fe7d5-abf5-49b9-8190-64a915a8ca2c)
-3) If we use prototype as a scope we will not receive a bean until we ask for it.
+3) If we use "prototype" as a scope we will not receive a bean until we ask for it.
 4) By default if we use singleton as a scope then ApplicationContext will create all the beans present in xml file before we ask for it.
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/b502e122-2956-4ffb-ac8a-2b5b63a56ef3)
 
@@ -33,6 +33,13 @@ Setters and Getters for Class Variables for Primitive Data Types:
 2) Right-click on age --> Source --> Generate Getters and Setters.
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/579ef064-9613-44da-b465-545f4b8f4194)
 3)![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/c0f52ffc-3d8a-4e92-9de0-0398106badb1)
+
+Setters and Getters for Object / Reference types:
+1) ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/4d7af845-f3de-40ed-84ca-ffa08ff0de49)
+2) ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/ec531cfb-0bab-4bfc-a552-ff290004e81c)
+3) ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/f0af6952-6fed-45e6-8cfc-e3105076edad)
+4) ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/67653bb3-4f6e-48eb-913d-81def088a1a7)
+
 
 
 
