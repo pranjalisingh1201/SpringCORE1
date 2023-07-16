@@ -5,5 +5,11 @@
 
 <!-- Creating a bean for alien class through xml configuration. -->
 <!--bean id="alien" class="com.springcore.spring1.Alien" scope="singleton" ___For one bean-->
-<bean id="alien" class="com.springcore.spring1.Alien" scope="prototype"></bean><!-- For multiple beans-->
+<!--bean id="alien" class="com.springcore.spring1.Alien" scope="prototype"__/bean--><!-- For multiple beans-->
+
+<bean id="alien" class="com.springcore.spring1.Alien">
+	<property name="age" value="10"></property>
+	<!-- For all the objects and variables know as beans can be called as properties and for primitive data 
+	types we assign them with value attribute.-->
+</bean>
 </beans>
