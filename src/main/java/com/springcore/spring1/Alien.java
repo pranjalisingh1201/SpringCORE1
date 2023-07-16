@@ -5,11 +5,17 @@ public class Alien {
 	private int age;
 	Laptop laptop;     //BEAN NAME -- Laptop REF-- Laptop and object is laptop.
 	
-	public Alien()
+	/*public Alien()
 	{
 		System.out.println("Alien Object Created.");
-	}
+	}*/
 		
+	public Alien(int age, Laptop laptop) {
+		System.out.println("Alien Object Created with asked parameters.");
+		this.age = age;
+		this.laptop = laptop;
+	}
+
 	public int getAge() {
 		return age;
 	}
@@ -26,6 +32,7 @@ public class Alien {
 	}
 
 	public void setLaptop(Laptop laptop) {
+		System.out.println("Laptop Object Setted.");
 		this.laptop = laptop;
 	}
 

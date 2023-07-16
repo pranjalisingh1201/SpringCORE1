@@ -8,13 +8,18 @@
 <!--bean id="alien" class="com.springcore.spring1.Alien" scope="prototype"__/bean--><!-- For multiple beans-->
 
 <bean id="alien" class="com.springcore.spring1.Alien">
-	<property name="age" value="10"></property>
+
+
+	<!--<property name="age" value="10"></property> Setter Injections-->
 	<!-- For all the objects and variables know as beans can be called as properties and for primitive data 
 	types we assign them with value attribute.-->
-	<property name="laptop" ref="Laptop"></property>
+	<!-- <property name="laptop" ref="Laptop"></property> -->
 	<!-- For Reference data types we assign them with ref attribute.This ref should be same as bean defined of the class-
 	 Laptop and name is object name used in the class.-->
-	
+	 
+	 
+	<constructor-arg value="10"></constructor-arg><!-- Constructor Injection for Primitive types and Reference types. -->
+	<constructor-arg ref="Laptop"></constructor-arg>
 </bean>
 <bean id="Laptop" class="com.springcore.spring1.Laptop"></bean>
 </beans>
