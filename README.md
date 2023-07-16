@@ -28,3 +28,11 @@ What if we need more beans?
 4) By default if we use singleton as a scope then ApplicationContext will create all the beans present in xml file before we ask for it.
 ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/b502e122-2956-4ffb-ac8a-2b5b63a56ef3)
 
+Setters and Getters for Class Variables for Primitive Data Types:
+1)![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/d88224f8-090e-48d0-9658-daeb7acda12a)
+2) Right-click on age --> Source --> Generate Getters and Setters.
+![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/579ef064-9613-44da-b465-545f4b8f4194)
+3)![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/c0f52ffc-3d8a-4e92-9de0-0398106badb1)
+
+
+
