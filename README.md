@@ -42,8 +42,9 @@ Setters and Getters for Object / Reference types:
 
 Constructor Injections:
 1) ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/5f219da9-ef5c-463b-9f4f-b51c829dac89)
-2) Setter methods are not called and the assignment of variables and references is done by the constructor.
+2) Setter methods are not called and the constructor assigns variables and references.
 3) ![image](https://github.com/pranjalisingh1201/SpringCORE1/assets/75729195/a5e938b4-673d-464d-a527-d76954a31c57)
 
 
-
+We can Autowire Interfaces with attribute autowire="byName" and autowire="byType".
+When we would have 2 different objects of the classes implementing that interface, we use primary="true" to fix the primary bean.
